@@ -160,16 +160,23 @@ export async function deleteFoodData(food_id: number) {
   const client = await pool.connect();
   try {
     await client.query('BEGIN');
+    const tablesToDeleteFrom = [
+      'HealthBenefits',
+      'FoodNutrient',
+      'Pairings',
+      'Seasonality',
+      'History',
+      'Pesticides',
+      'BotanicalInformation',
+      'FoodVarieties',
+      'StorageTips',
+      'UsageTips',
+      'CommonUses',
+    ];
 
-    // Delete from HealthBenefits where food_id matches
-    await client.query('DELETE FROM HealthBenefits WHERE food_id = $1', [
-      food_id,
-    ]);
-
-    // Delete from FoodNutrient where food_id matches
-    await client.query('DELETE FROM FoodNutrient WHERE food_id = $1', [
-      food_id,
-    ]);
+    for (const table of tablesToDeleteFrom) {
+      await client.query(`DELETE FROM ${table} WHERE food_id = $1`, [food_id]);
+    }
 
     // Delete from Food where food_id matches
     await client.query('DELETE FROM Food WHERE food_id = $1', [food_id]);
