@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Apple",
+    "category": "Fruit",
+    "servingSize": "100g",
+    "calories": 52,
+    "nutrients": [
+      { "name": "Vitamin C", "unit": "mg", "amount": 4.6 },
+      { "name": "Dietary Fiber", "unit": "g", "amount": 2.4 },
+      { "name": "Potassium", "unit": "mg", "amount": 107 },
+      { "name": "Total Fat", "unit": "g", "amount": 0.2 },
+      { "name": "Protein", "unit": "g", "amount": 0.3 },
+      { "name": "Carbohydrates", "unit": "g", "amount": 13.8 },
+      { "name": "Sugar", "unit": "g", "amount": 10.4 },
+      { "name": "Vitamin A", "unit": "IU", "amount": 54 },
+      { "name": "Calcium", "unit": "mg", "amount": 6 }
+    ],
+    "pairings": [
+      "Peanut butter",
+      "Cinnamon",
+      "Cheese",
+      "Caramel",
+      "Walnuts",
+      "Oats",
+      "Pork"
+    ],
+    "usageTips": [
+      "Great for baking",
+      "Ideal for salads",
+      "Perfect for making apple sauce",
+      "Can be used in smoothies",
+      "Use in savory dishes like pork chops"
+    ],
+    "commonUses": [
+      "Raw consumption",
+      "Juices",
+      "Pies",
+      "Cider",
+      "Apple Butter",
+      "Snacking",
+      "Preserves"
+    ],
+    "glycemicIndex": 38,
+    "allergens": "None",
+    "seasonality": ["August", "September", "October", "November"],
+    "varieties": [
+      "Granny Smith",
+      "Gala",
+      "Fuji",
+      "Honeycrisp",
+      "Pink Lady",
+      "Braeburn",
+      "Golden Delicious",
+      "Red Delicious"
+    ],
+    "description": "A sweet, edible fruit produced by an apple tree. Apples are rich in antioxidants, flavonoids, and dietary fiber. They come in various colors including red, green, and yellow, and are known for their juicy and crisp texture.",
+    "history": "Cultivated for thousands of years in Asia and Europe, apples were brought to North America by European colonists.",
+    "storageTips": [
+      "Store in a cool, dry place away from direct sunlight.",
+      "Refrigerate to extend shelf life.",
+      "To prevent browning, soak cut apples in water mixed with a bit of lemon juice."
+    ],
+    "healthBenefits": [
+      "May reduce the risk of heart disease",
+      "Can aid in weight loss",
+      "Linked to a lower risk of diabetes",
+      "Improves digestion",
+      "Supports a healthy immune system",
+      "Promotes skin health",
+      "Helps in maintaining good vision"
+    ],
+    "organic": true,
+    "environmentalImpact": "Low",
+    "pesticides": "Conventionally grown apples may have pesticide residues; washing or peeling is recommended.",
+    "culturalSignificance": "Symbol of health and prosperity in many cultures, often associated with knowledge and education, featured in numerous myths and folklore.",
+    "botanicalInformation": {
+      "family": "Rosaceae",
+      "genus": "Malus",
+      "species": "M. domestica"
+    },
+    "imageReference": "url_to_apple_image.jpg"
+  }
+]
