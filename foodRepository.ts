@@ -97,7 +97,7 @@ export async function insertFoodData(jsonData: any) {
       // Insert Botanical Information
       if (item.botanicalInformation) {
         await client.query(
-          'INSERT INTO botanical_information (food_id, family, genus, species) VALUES ($1, $2, $3, $4)',
+          'INSERT INTO botanicalInformation (food_id, family, genus, species) VALUES ($1, $2, $3, $4)',
           [
             foodId,
             item.botanicalInformation.family,

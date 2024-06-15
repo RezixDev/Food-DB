@@ -52,13 +52,13 @@ function displayData(data) {
 
     // Basic information that is always visible
     row.innerHTML = `
-      <td>${item.food_name} (${item.category})</td>
+      <td>${item.name} (${item.category})</td>
       <td>${item.serving_size}</td>
       <td>${item.calories}</td>
       <td>${formatNutrients(item.nutrients)}</td>
-      <td>${formatList(item.usage_tips)}</td>
-      <td>${formatList(item.common_uses)}</td>
-      <td>${item.glycemic_index}</td>
+      <td>${formatList(item.usageTips)}</td>
+      <td>${formatList(item.commonUses)}</td>
+      <td>${item.glycemicIndex}</td>
       <td>${item.organic ? 'Yes' : 'No'}</td>
       <td>${item.allergens}</td>
       <td>${item.environmental_impact}</td>
